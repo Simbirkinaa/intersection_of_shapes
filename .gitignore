@@ -1,0 +1,11 @@
+# Ignore .pyc files
+*.pyc
+
+# Ignore __pycache__ directories
+__pycache__/
+
+# Ignore the config.ini file
+config.ini
+
+# Ignore the .idea directory
+.idea/
