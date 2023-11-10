@@ -31,4 +31,4 @@ jobs:
         uses: actions/setup-python@v2
 
       - name: Run tests
-        run: python Tests/AllPasTest.py
+        run: python Tests/test.py
