@@ -1,5 +1,5 @@
 import unittest
-from main import *
+from src.main import *
 
 class TestOpenGLFunctions(unittest.TestCase):
 
