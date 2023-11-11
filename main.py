@@ -122,12 +122,10 @@ def key_callback(_, key, __, action, ___):
 
 def main():
     global window
-
     if not glfw.init():
         return
 
     window = glfw.create_window(800, 600, "Intersection of Tetrahedron and Cylinder", None, None)
-
     if not window:
         glfw.terminate()
         return
