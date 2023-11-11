@@ -1,7 +1,5 @@
 import unittest
-import glfw
-from main import draw_tetrahedron, draw_cylinder
-
+from src.main import *
 
 class TestOpenGLFunctions(unittest.TestCase):
 
