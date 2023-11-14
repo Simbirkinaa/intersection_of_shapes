@@ -18,7 +18,9 @@
 - glfw для создания окон с контекстом OpenGL и обработки событий ввода, предоставляет минимальный набор функций, необходимых для создания графического приложения с использованием OpenGL.
 - math - для выполнения математических вычислений, таких как вычисление синусов, косинусов и других функций.
 ## Установка и запуск
-1. ```git clone https://github.com/Simbirkinaa/Demonstration_of_pendulum_movement.git```
+1. ```git clone https://github.com/Simbirkinaa/intersection_of_shapes.git```
 2. ```cd <project_folder>```
-3.  ```pip install -r requirements.txt```
-4. ```python main.py```
+3. ```pip install PyOpenGL PyOpenGL_accelerate```
+4. ```pip install glfw PyOpenGL```
+5.  ```pip install -r requirements.txt```
+6. ```python main.py```
