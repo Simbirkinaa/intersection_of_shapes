@@ -22,7 +22,7 @@ class TestOpenGLFunctions(unittest.TestCase):
 
     def test_draw_tetrahedron(self):
         # Проверяем, что функция успешно отрисовывает тетраэдр
-        # Мы не можем напрямую сравнить изображения, поэтому просто проверим, что
+        # Мы не можем напрямую сравнить изображения, поэтому проверяем, что
         # функция завершается без ошибок (не вызывает исключений).
         try:
             draw_tetrahedron()
@@ -31,13 +31,12 @@ class TestOpenGLFunctions(unittest.TestCase):
 
     def test_draw_cylinder(self):
         # Проверяем, что функция успешно отрисовывает цилиндр
-        # Мы не можем напрямую сравнить изображения, поэтому просто проверим, что
+        # Мы не можем напрямую сравнить изображения, поэтому проверяем, что
         # функция завершается без ошибок (не вызывает исключений).
         try:
             draw_cylinder()
         except Exception as e:
             self.fail(f"draw_cylinder() raised an exception: {e}")
-
 
 if __name__ == '__main__':
     unittest.main()
