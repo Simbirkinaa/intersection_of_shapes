@@ -1,4 +1,4 @@
-## Лабораторная работа №5 по дисциплине "Компьютерная графика"
+## Графическое решение программы отображения фигур
 [![Version](https://img.shields.io/badge/Version-1.0.0-darkblue.svg)](https://github.com/Simbirkinaa/Demonstration_of_pendulum_movement)
 ![Python](https://img.shields.io/badge/Python-3.11-pink)
 [![License: MIT](https://img.shields.io/badge/License-MIT-lightgreen.svg)](https://opensource.org/licenses/MIT)
